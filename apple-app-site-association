@@ -2,7 +2,7 @@
    "applinks":{
       "details":[
          {
-            "appID":"YPJZR6F8K7.com.appzgate.deeplink",
+            "appIDs":["YPJZR6F8K7.com.appzgate.deeplink"],
             "components":[
                {
                   "/" : "topup"
