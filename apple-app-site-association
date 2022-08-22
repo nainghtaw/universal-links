@@ -1,12 +1,22 @@
-
 {
-	"applinks": {
-		"apps": [],
-		"details": [
-			{
-				"appID": "YPJZR6F8K7.com.appzgate.deeplink",
-				"paths": [ "*"]
-			}
-		]
-	}
+   "applinks":{
+      "apps":[
+         
+      ],
+      "details":[
+         {
+            "appID":"YPJZR6F8K7.com.appzgate.deeplink",
+            "paths":[
+               "/wwdc/news/",
+               "/videos/wwdc/2015/*"
+            ]
+         },
+         {
+            "appID":"YPJZR6F8K7.com.appzgate.deeplink",
+            "paths":[
+               "*"
+            ]
+         }
+      ]
+   }
 }
