@@ -1,18 +1,12 @@
+
 {
-   "applinks":{
-      "details":[
-         {
-            "appIDs":["YPJZR6F8K7.com.appzgate.deeplink"],
-            "components":[
-               {
-                  "/" : "topup",
-                  "?" : {"code": "?*"}
-               },
-		{
-                  "/" : "*"
-               }
-            ]
-         }
-      ]
-   }
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appID": "YPJZR6F8K7.com.appzgate.deeplink",
+				"paths": [ "*"]
+			}
+		]
+	}
 }
