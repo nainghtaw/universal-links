@@ -1,22 +1,28 @@
 {
-   "applinks":{
-      "apps":[
-         
-      ],
-      "details":[
-         {
-            "appID":"YPJZR6F8K7.com.appzgate.deeplink",
-            "paths":[
-               "/wwdc/news/",
-               "/videos/wwdc/2015/*"
-            ]
-         },
-         {
-            "appID":"YPJZR6F8K7.com.appzgate.deeplink",
-            "paths":[
-               "*"
-            ]
-         }
-      ]
-   }
-}
+   "applinks": {
+       "details": [
+            {
+              "appIDs": [ "YPJZR6F8K7.com.appzgate.deeplink", "YPJZR6F8K7.com.appzgate.deeplink" ],
+              "components": [
+                {
+                   "/": "/topup",
+                   "comment": "Matches any URL with a path that starts with /buy/."
+                },
+                {
+                   "/": "*",
+                   "exclude": true,
+                   "comment": "Matches any URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
+                },
+                {
+                   "/": "/help/*",
+                   "?": { "articleNumber": "????" },
+                   "comment": "Matches any URL with a path that starts with /help/ and that has a query item with name 'articleNumber' and a value of exactly four characters."
+                }
+              ]
+            }
+        ]
+    },
+    "webcredentials": {
+       "apps": [ "YPJZR6F8K7.com.appzgate.deeplink" ]
+    }
+ }
