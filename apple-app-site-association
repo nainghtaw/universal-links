@@ -6,8 +6,8 @@
               "appIDs": [ "YPJZR6F8K7.com.appzgate.deeplink", "YPJZR6F8K7.com.appzgate.deeplink" ],
               "components": [
                 {
-                   "/": "/topup",
-                   "?": { "code": "????" },
+                   "/": "/topup/*",
+                   "?": { "code": "?*" },
                    "comment": "Matches any URL with a path that starts with /topup/ with."
                 }
               ]
