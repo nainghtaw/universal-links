@@ -7,7 +7,7 @@
               "components": [
                 {
                    "/": "/topup",
-                   "?": { "code": "1" },
+                   "?": { "code": "*" },
                    "comment": "Matches any URL with a path that starts with /topup/ with."
                 }
               ]
